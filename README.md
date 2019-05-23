@@ -6,6 +6,8 @@ A demo of turning [Angular](https://github.com/angular/angular)'s project into a
 
 ## How to use?
 
+Running the `yarn start` command will build the Angular project and run the carlo process.
+
 ```bash
 $ yarn start
  yarn run v1.12.3
@@ -23,6 +25,10 @@ $ yarn start
  $ ts-node --project carlo/tsconfig.json carlo/main.ts
  ✨  Done in 32.41s.
 ```
+
+The Angular app launches as a desktop app, as shown in the image below.
+
+![Schreenshot](./media/AngularOnCarlo.png)
 
 ## License
 
