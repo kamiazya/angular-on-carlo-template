@@ -1,27 +1,35 @@
-# AngularOnCarlo
+# Angular on carlo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
+## What's this?
 
-## Development server
+A demo of turning [Angular](https://github.com/angular/angular)'s project into a desktop application by using [carlo](https://github.com/GoogleChromeLabs/carlo).
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## How to use?
 
-## Code scaffolding
+```bash
+$ yarn start
+ yarn run v1.12.3
+ $ run-s build start:carlo
+ $ ng build
+ Date: 2019-05-22T13:02:29.715Z
+ Hash: 5f8b2fd87134cf3f4931
+ Time: 5784ms
+ chunk {es2015-polyfills} es2015-polyfills.js, es2015-polyfills.js.map (es2015-polyfills) 285 kB [initial]  [rendered]
+ chunk {main} main.js, main.js.map (main) 10.3 kB [initial] [rendered]
+ chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 236 kB [initial] [rendered]
+ chunk {runtime} runtime.js, runtime.js.map (runtime) 6.08 kB [entry] [rendered]
+ chunk {styles} styles.js, styles.js.map (styles) 16.7 kB [initial] [rendered]
+ chunk {vendor} vendor.js, vendor.js.map (vendor) 3.45 MB [initial] [rendered]
+ $ ts-node --project carlo/tsconfig.json carlo/main.ts
+ ✨  Done in 15.69s.
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## License
 
-## Build
+[MIT](https://choosealicense.com/licenses/mit/)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Author
 
-## Running unit tests
+[kamiazya(Yuki Yamazaki)](https://github.com/kamiazya)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W5VDNO)
