@@ -14,14 +14,22 @@ $ yarn start
  $ run-s build start:carlo
  $ ng build --prod
 
- Date: 2019-05-23T03:24:24.416Z
- Hash: aec56e5f54405128ea51
- Time: 18940ms
- chunk {0} runtime.26209474bfa8dc87a77c.js (runtime) 1.41 kB [entry] [rendered]
- chunk {1} es2015-polyfills.66d0882ecaa572e181ea.js (es2015-polyfills) 56.6 kB [initial] [rendered]
- chunk {2} main.ab101fdd138bcebb8653.js (main) 240 kB [initial] [rendered]
- chunk {3} polyfills.8bbb231b43165d65d357.js (polyfills) 41 kB [initial] [rendered]
- chunk {4} styles.3ff695c00d717f2d2a11.css (styles) 0 bytes [initial] [rendered]
+ Compiling @angular/core : es2015 as esm2015
+
+ Compiling @angular/common : es2015 as esm2015
+
+ Compiling @angular/platform-browser : es2015 as esm2015
+
+ Compiling @angular/platform-browser-dynamic : es2015 as esm2015
+
+ Compiling @angular/router : es2015 as esm2015
+ Date: 2019-06-08T16:17:14.310Z
+ Hash: 8f396cdc46e97facd68e
+ Time: 25745ms
+ chunk {0} runtime-es2015.858f8dd898b75fe86926.js (runtime) 1.41 kB [entry]  [rendered]
+ chunk {1} main-es2015.2e78c961ce65969fc656.js (main) 207 kB [initial] [rendered]
+ chunk {2} polyfills-es2015.559e7c8b3a629fdb5581.js (polyfills) 36.8 kB [initial]  [rendered]
+ chunk {3} styles.09e2c710755c8867a460.css (styles) 0 bytes [initial] [rendered]
  $ ts-node --project carlo/tsconfig.json carlo/main.ts
  ✨  Done in 32.41s.
 ```
