@@ -1027,10 +1027,10 @@
     semver "6.0.0"
     semver-intersect "1.4.0"
 
-"@types/carlo@^0.9.0":
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/@types/carlo/-/carlo-0.9.0.tgz#8640cee47fa5b3af43c5e60f118d4c657b61b361"
-  integrity sha512-8OxpvQsM8dY/UZXQwGrVnAr4cjLMB0uqVkP+QISQhybZmAqoyLAnB+rd9yYBea5RrnlJqf4UoScSw+316/CZiQ==
+"@types/carlo@^0.9.1":
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/@types/carlo/-/carlo-0.9.1.tgz#a21ce625becbe20b881dd79719261f68f54320cc"
+  integrity sha512-nAzbId4RPV1kNklD2VivtG7NUg4Y6YiYlRxMbFL6oLPZEW3tqfEETc8YPqCCSKGp72LztF+4PkATAhS37BiwuA==
   dependencies:
     "@types/node" "*"
     "@types/puppeteer-core" "*"
